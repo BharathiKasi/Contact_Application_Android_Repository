@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+    </androidx.recyclerview.widget.RecyclerView>
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:id="@+id/user_phone_number"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="enter your PhoneNo :"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--/>-->
+        <!--<EditText-->
+            <!--android:id="@+id/user_phone_number_edit_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@id/user_phone_number"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginLeft="30dp"-->
+            <!--android:inputType="text"-->
+            <!--/>-->
+<!---->
+        <!--<TextView-->
+            <!--android:id="@+id/user_name"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="enter your name  :"-->
+            <!--android:textColor="@color/name_color"-->
+            <!--android:layout_below="@id/user_phone_number"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--/>-->
+        <!--<EditText-->
+            <!--android:id="@+id/user_name_edit_text_"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@id/user_name"-->
+            <!--android:layout_below="@id/user_phone_number_edit_text"-->
+            <!--android:inputType="textLongMessage"-->
+            <!--android:layout_marginLeft="47dp"-->
+<!---->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/user_surname_text_view"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/user_name"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:text="enter your surname :"-->
+            <!--android:textColor="@color/name_color"-->
+            <!--/>-->
+        <!--<EditText-->
+            <!--android:id="@+id/user_surname_edit_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/user_name_edit_text_"-->
+            <!--android:layout_toRightOf="@id/user_surname_text_view"-->
+            <!--android:inputType="textLongMessage"-->
+            <!--android:layout_marginLeft="33dp"-->
+            <!--/>-->
+    <!--</RelativeLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:gravity="bottom"-->
+        <!--&gt;-->
+        <!--<Button-->
+            <!--android:id="@+id/insert_button"-->
+            <!--style="@style/button_theme"-->
+            <!--android:text="insert"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:id="@+id/show_button"-->
+            <!--style="@style/button_theme"-->
+            <!--android:text="show"-->
+<!---->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:id="@+id/delete"-->
+            <!--style="@style/button_theme"-->
+            <!--android:text="delete"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:id="@+id/modify"-->
+            <!--style="@style/button_theme"-->
+            <!--android:text="modify"-->
+            <!--/>-->
+<!---->
+<!---->
+    <!--</LinearLayout>-->
+<!---->
+</LinearLayout>
